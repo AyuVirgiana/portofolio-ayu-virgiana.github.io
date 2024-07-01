@@ -1,0 +1,452 @@
+<!-- Deklarasi yang menjelaskan bahwa ini adalah dokumen HTML5 -->
+<!DOCTYPE html>
+
+<!-- Bagian akar dari sebuhah HTML, dengan language english-->
+<html lang="en">
+
+  <!-- Bagian informasi metadata -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Responsive web design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/2f708729c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Menambahkan meta tag untuk thumbnail -->
+    <meta property="og:image" content="assets/images/home.png">
+    <meta property="og:image:width" content="800"> <!-- Lebar gambar dalam piksel -->
+    <meta property="og:image:height" content="600"> <!-- Tinggi gambar dalam piksel -->
+    
+    <!-- Judul-->
+    <title>Portofolio | Ayu Purnama Virgiana</title>
+  </head>
+
+  <!-- Isi-->
+  <body>
+
+    <!-- Memanggil .totop di css-->
+    <div class="totop">
+      <!-- i untuk italic-->
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!-- header-->
+    <header>
+      
+      <!-- Memanggil .logo_brand di css-->
+      <div class="logo_brand">Ayu Purnama Virgiana</div>
+
+      <!-- ??, memanggil .icon-->
+      <img src="assets/images/bars.svg" alt="" class="icon">
+      
+      <!-- Navigasi-->
+      <nav>
+        <a class="container" href="#container" class="active">Home</a>
+        <a class="aboutme"href="#aboutme">About Me</a>
+        <a class="skills"href="#skills">Skills</a>
+        <a class="education"href="#education">Education</a>
+        <a class="projects"href="#projects">Projects</a>
+        <a class="contact"href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- akhir header -->
+
+    <!-- Home -->
+    <div id="container" class="act" data-aos="fade-up">
+      <div id="left" class="left">
+        <div class="desc">
+          <p></p>
+          <h1>Hi!</h1>
+          <h1>I'm Ayu <span style="color: rgb(230, 77, 0)">Virgiana</span></h1>
+          <p>I Am <span class="text"></span></p>
+          <button class="btn_aboutme">
+            <p>About Me</p>
+            <img src="./assets/images/arrow.png" alt="" width="15" />
+          </button>
+          <div class="sosmed">
+            <a href="https://www.instagram.com/ayuvirgiianaa/" class="ig" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <!--<a href="" class="fb" target="_blank"><i class="fa-brands fa-facebook"></i></a>-->
+            <a href="mailto:ayuvirgiana10@gmail.com" class="email" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+             <!--<a href="" class="twiter" target="_blank"><i class="fa-brands fa-twitter"></i></a>-->
+            <a href="https://github.com/AyuVirgiana" class="gh" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ayu-virgi" class="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+             <!--<a href="" class="tele" target="_blank"><i class="fa-solid fa-paper-plane"></i></a>-->
+          </div>
+        </div>
+      </div>
+      <div id="right" class="right">
+        <div class="foto">
+          <img src="./assets/images/virgi.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Home -->
+
+    <!-- About me -->
+    <div id="aboutme"class="act" >
+      <div class="title_aboutme">
+        <i class="fa-solid fa-user"></i>
+        <h1>About <span style="color: #7303a7">Me</span></h1>
+      </div>
+
+      <div class="content">
+        <div class="profile foto1">
+          <img src="assets/images/virgi.png" alt="" class="" />
+        </div>
+        <section>
+          <h1 data-aos="fade-down" data-aos-duration="700" data-aos-delay="100">I'm Ayu Virgiana</h1>
+          <p data-aos="fade-down" data-aos-duration="700" data-aos-delay="200">Junior Web Developer</p>
+          <span style="text-transform: none;" data-aos="fade-down" data-aos-duration="700" data-aos-delay="300">Dedicated and motivated fifth-semester student at ITB STIKOM Bali. Eager to apply my programming and communication skills to contribute in innovative projects and gain practical experience in a dynamic professional environment.</span>
+          <div class="desc" data-aos="fade-down" data-aos-duration="700" data-aos-delay="400">
+            <p class="me"><span class='lbl'>Age </span>    : <span>20</span></p>
+            <p class="me"><span class='lbl'>Email </span>  : <span style="color: #000; text-transform: lowercase">ayuvirgiana10@gmail.com</span></p>
+            <p class="me"><span class='lbl'>Phone </span>  : <span style="color: #000">+62 85792554820</span></p>
+            <p class="me"><span class='lbl'>Address</span> : <span style="color: #000">Jl. Mekar Sari No.22,</span></p>
+            <p class="me"><span class='lbl1'></span><span style="color: #000">Denpasar Selatan, Bali, Indonesia</span></p>
+          </div>
+
+          <button class="cv" data-aos="fade-down" data-aos-duration="700" data-aos-delay="500">
+            <p>Download Cv</p>
+            <i class="fa-sharp fa-solid fa-arrow-up-from-bracket"></i>
+          </button>
+        </section>
+      </div>
+    </div>
+    <!-- Akhir Aboutme -->
+
+    <!-- Skills -->
+    <div id="skills"class="act" 
+        data-aos="fade-down" 
+        data-aos-duration="2000">
+      <div class="title">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h1>Skills & <span style="color: #ffe600">Abilities</span></h1>
+      </div>
+
+      <main>
+        <div class="bg1"></div>
+      </main>
+    </div>
+    <!-- Akhir Skilss -->
+
+    <!-- education -->
+    <div id="education"class="act">
+      <div class="title">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <h1>My <span style="color: rgb(115, 3, 167)">Education</span></h1>
+      </div>
+      <div class="desc">Education is the passport to the future, for tomorrow belongs to those who prepare for it today. </div>
+
+      <div class="cards">
+        <div class="card1" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+          <img src="./assets/images/stikom.png" alt="" />
+          <div class="desc1">
+            <h1>S1-Teknologi Informasi</h1>
+            <p>Institut Teknologi dan Bisnis STIKOM Bali | ITB STIKOM Bali</p>
+            <h2>2021 - Currently</h2>
+          </div>
+        </div>
+        <div class="card1" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+          <img src="./assets/images/resman.jpg" alt="" />
+          <div class="desc1">
+            <h1>IPA Major | Jurusan IPA</h1>
+            <p>SMA Negeri 2 Denpasar | RESMAN</p>
+            <h2>2018 - 2021</h2>
+          </div>
+        </div>
+        <div class="card1" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+          <img src="./assets/images/spensya.jpg" alt="" />
+          <div class="desc1">
+            <h1>Pendidikan Umum</h1>
+            <p>SMP Negeri 9 Denpasar | SPENSYA</p>
+            <h2>2015 - 2018</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir education -->
+
+    <!-- Projects & Certifications -->
+    <div id="projects"class="act">
+      <div class="title_project">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h1>My <span style="color: #ffe600">Projects and Certifications</span></h1>
+      </div>
+      <div style="color: #ffffff">CLICK TO SEE DETAIL<3</div>
+      <div class="container1">
+         <div class="card2 prj" data-aos="fade-down" data-aos-duration="700" data-aos-delay="50">
+          <img src="assets/images/projects/tampilanlotkal.png" alt="" class="card-img" />
+          <p class="title">LOTKAL</p>
+          <div class="show">
+            <p class="p1">LOTKAL<i class="fa-solid fa-xmark"></i></p>
+            <p class="p2">Prototype of Web based job app that connect job seeker with company. Made with Figma</p>
+            <div class="choise">
+              <button class="view_LOTKAL">
+                <i class="fa-solid fa-eye"></i>
+                View Prototype
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card2 prj" data-aos="fade-down" data-aos-duration="700" data-aos-delay="50">
+          <img src="assets/images/projects/tampilansecondbite.jpeg" alt="" class="card-img" />
+          <p class="title">SECONDBITE</p>
+          <div class="show">
+            <p class="p1">SECONDBITE<i class="fa-solid fa-xmark"></i></p>
+            <p class="p2">Mobile app that connects hotels (outlets) with buyers to sell leftover buffet food at a cheaper price. Made with Android Studio, Dart, Firebase, Openstreetmap.</p>
+            <div class="choise">
+              <button class="view_secondbite">
+                <i class="fa-solid fa-eye"></i>
+                View Demo and App
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card2 prj" data-aos="fade-down" data-aos-duration="700" data-aos-delay="50">
+          <img src="assets/images/projects/pos.png" alt="" class="card-img" />
+          <p class="title">Point Of Sales</p>
+          <div class="show">
+            <p class="p1">Point Of Sales<i class="fa-solid fa-xmark"></i></p>
+            <p class="p2">Made with Visual Studio 2022, C#, Microsoft Sql Server</p>
+            <div class="choise">
+              <button class="view_pos_guide1">
+                <i class="fa-solid fa-eye"></i>
+                View Guide Admin
+              </button>
+              <button class="view_pos_guide2">
+                View Guide Cashier
+                <i class="fa-solid fa-eye"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card2 prj"data-aos="fade-down" data-aos-duration="700" data-aos-delay="150">
+          <img src="assets/images/projects/ecowheels.png" alt="" class="card-img" />
+          <p class="title">UI/UX ECO WHEELS (ON PROCESS)</p>
+          <div class="show">
+            <p class="p1">UI/UX ECO WHEELS (ON PROCESS)<i class="fa-solid fa-xmark"></i></p>
+            <p class="p2">Made with Figma</p>
+            <div class="choise">
+              <button class="view_ecowheels">
+                <i class="fa-solid fa-eye"></i>
+                View Figma
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card2 prj"data-aos="fade-down" data-aos-duration="700" data-aos-delay="250">
+          <img src="assets/images/projects/mitra-bersama.png" alt="" class="card-img" />
+          <p class="title">UI/UX E-commerce Mitra Bersama (Only Customer)</p>
+          <div class="show">
+            <p class="p1">UI/UX Mitra Bersama<i class="fa-solid fa-xmark"></i></p>
+            <p class="p2">Made with Figma</p>
+            <div class="choise">
+              <button class="view_mitrabersama">
+                <i class="fa-solid fa-eye"></i>
+                View Figma
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card2 prj"data-aos="fade-down" data-aos-duration="700" data-aos-delay="350">
+          <img src="assets/images/projects/crud.png" alt="" class="card-img" />
+          <p class="title">CRUD Admin Book Store</p>
+          <div class="show">
+            <p class="p1">CRUD Admin Book Store<i class="fa-solid fa-xmark"></i></p>
+            <p class="p2">Made with PHP, CSS, MySQL</p>
+            <div class="choise">
+              <button class="view_crud">
+                <i class="fa-solid fa-eye"></i>
+                View Guide
+              </button>
+              <button class="view_code_crud">
+                Code
+                <i class="fa-solid fa-code"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card2 prj"data-aos="fade-down" data-aos-duration="700" data-aos-delay="350">
+          <img src="assets/images/projects/omah-kita.png" alt="" class="card-img" />
+          <p class="title">UI/UX Omah Kita</p>
+          <div class="show">
+            <p class="p1">UI/UX Omah Kita<i class="fa-solid fa-xmark"></i></p>
+            <p class="p2">Made with Figma. An UI/UX of waste bank application</p>
+            <div class="choise">
+              <button class="view_omahkita">
+                <i class="fa-solid fa-eye"></i>
+                View Figma
+              </button>
+              <button class="view_doc_omahkita">
+                <i class="fa-solid fa-file"></i>
+                View UI/UX Document
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card2 prj"data-aos="fade-down" data-aos-duration="700" data-aos-delay="350">
+          <img src="assets/images/projects/cisco.png" alt="" class="card-img" />
+          <p class="title">Sistem Manajemen Hotel Menggunakan Cisco Packet Tracers</p>
+          <div class="show">
+            <p class="p1">Sistem Manajemen Hotel Menggunakan Cisco Packet Tracer<i class="fa-solid fa-xmark"></i></p>
+            <p class="p2">Perancangan sistem jaringan komputer dalam sebuah hotel dapat didukung oleh software bernama Cisco Packet Tracer.</p>
+            <div class="choise">
+              <button class="view_cisco">
+                <i class="fa-solid fa-file"></i>
+                View Document
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card2 prj"data-aos="fade-down" data-aos-duration="700" data-aos-delay="350">
+          <img src="assets/images/certif/sertif.png" alt="" class="card-img" />
+          <p class="title">My Certifications</p>
+          <div class="show">
+            <p class="p1">My Certifications<i class="fa-solid fa-xmark"></i></p>
+            <p class="p2">All my certifications, click "view" to see</p>
+            <div class="choise">
+              <button class="view_certif">
+                <i class="fa-solid fa-eye"></i>
+                View 
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir projects -->
+
+    <!-- contact -->
+    <div id="contact"class="act">
+      <div class="title_contact">
+        <i class="fa-solid fa-phone"></i>
+        <h1>Contact <span style="color: #7303a7">Me</span></h1>
+      </div>
+
+      <main>
+        <div class="alert d-none">
+          <div class="isi"><strong>Pesan Berhasil Terkirim!</strong> Terima Kasih sudah mengirim pesan</div>
+          <i class="fa-solid fa-xmark x"></i>
+        </div>
+        <div class="content">
+          <img src="assets/images/chat.svg" alt="" width="400" class="pict"/>
+          <form name="submit-to-google-sheet">
+            <div class="nama">
+              <label for="nama"><i class="fa-solid fa-user"></i></label>
+              <input type="text" placeholder="Name" name="nama" id="nama"required/>
+            </div>
+            <div class="email">
+              <label for="email"><i class="fa-solid fa-envelope"></i></label>
+              <input type="email" style="text-transform: none;"placeholder="Email" name="email" id="email" required/>
+            </div>
+            <div class="phone">
+              <label for="phone"><i class="fa-solid fa-phone"></i></label>
+              <input type="text" placeholder="Phone" name="phone" id="phone" required/>
+            </div>
+            <div class="message">
+              <label for="pesan"><i class="fa-solid fa-message"></i></label>
+
+              <textarea id="pesan" name="pesan" rows="8" cols="60" placeholder="Message" required></textarea>
+            </div>
+            <div class="btn-grp">
+              <button class="submit" type="submit">
+                submit
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+              <button class="buttonload d-none">
+                <i class="fa-solid fa-spinner"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+    <!-- akhir contact -->
+
+    <!-- footer -->
+    <footer class="">
+      <div class="info">
+        <div class="info1">
+          <h2>Virgi Portofolio</h1>
+          <p>Thank you for visiting my personal portfolio website</p>
+          <p>Keep Learning!</p>
+        </div>
+        <div class="links">
+          <h2>Quick Links</h2>
+          <a href="#container">
+            <i class="fa-solid fa-chevron-right"></i>
+            Home
+          </a>
+          <a href="#aboutme">
+            <i class="fa-solid fa-chevron-right"></i>
+            About Me
+          </a>
+          <a href="#skills">
+            <i class="fa-solid fa-chevron-right"></i>
+            Skills
+          </a>
+          <a href="#education">
+            <i class="fa-solid fa-chevron-right"></i>
+            Education
+          </a>
+          <a href="#projects">
+            <i class="fa-solid fa-chevron-right"></i>
+            Projects
+          </a>
+          <a href="#contact">
+            <i class="fa-solid fa-chevron-right"></i>
+            Contact
+          </a>
+        </div>
+        <div class="info2">
+          <h2>Contact Info</h2>
+          <div class="con">
+            <div class="phn">
+              <i class="fa-solid fa-phone-flip"></i>
+              <p>+62 85792554820</p>
+            </div>
+            <div class="phn">
+              <i class="fa-solid fa-envelope"></i>
+              <p style="text-transform: lowercase;">ayuvirgiana10@gmail.com</p>
+            </div>
+            <div class="phn">
+              <i class="fa-solid fa-map-pin"></i>
+              <p>Denpasar Selatan, Bali</p>
+            </div>
+          </div>
+          <div class="sosial">
+            <a href="https://www.instagram.com/ayuvirgiianaa/" class="ig" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:ayuvirgiana10@gmail.com" target="_blank" class="email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/ayu-virgi/" class="linkedin" targer="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <!--<a href="https://github.com/kadekwira" target="_blank"><i class="gh"><i class="fa-brands fa-github"></i></a>-->
+          </div>
+        </div>
+      </div>
+      <div class="copy">
+          Made with <span style="color: red" padding="5px"> &#10084; </span> By <span style="color: orange"> Ayu Virgiana</span>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        mirror: true,
+        anchorPlacement: 'top-bottom'
+      });
+    </script>
+    <script src="./js/api.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/tilt.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

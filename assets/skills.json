@@ -1,0 +1,52 @@
+[ 
+  {
+    "judul":"Figma",
+    "api":"Figma (software)",
+    "img":"assets/images/skills/figma.svg"
+  },{
+    "judul":"Ms Office",
+    "api":"Ms Office",
+    "img":"assets/images/skills/msoffice.png"
+  },{
+    "judul":"Python",
+    "api":"Python",
+    "img":"assets/images/skills/python.png"
+  },{
+    "judul":"HTML",
+    "api":"HTML",
+    "img":"assets/images/skills/html.png"
+  },{
+    "judul":"CSS",
+    "api":"CSS",
+    "img":"assets/images/skills/css.png"
+  },{
+    "judul":"Java",
+    "api":"Java",
+    "img":"assets/images/skills/java.png"
+  },{
+    "judul":"Javascript",
+    "api":"JavaScript",
+    "img":"assets/images/skills/js.png"
+  },{
+    "judul":"Bootstrap",
+    "api":"Bootstrap (front-end framework)",
+    "img":"assets/images/skills/bootstrap.svg"
+  },{
+    "judul":"C++",
+    "api":"C++",
+    "img":"assets/images/skills/c++.svg"
+  },{
+    "judul":"C#",
+    "api":"C#",
+    "img":"assets/images/skills/csharp.png"
+  },{
+    "judul":"Microsoft SQL Server",
+    "api":"Microsoft SQL Server",
+    "img":"assets/images/skills/SQLserver.png"
+  },{
+    "judul":"Adobe Photoshop",
+    "api":"Adobe Photoshop",
+    "img":"assets/images/skills/photoshop.png"
+  }
+
+]
